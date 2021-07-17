@@ -1,0 +1,21 @@
+<div class="container">
+<div class="card">
+<div class="card-header">
+    <h1>{{title}}</h1>
+</div>
+<div class="card-body">
+<ul class="list-group"  *ngFor="let c of courses">
+    <li class="list-group-item disabled">
+{{c}}
+    </li>
+</ul>
+</div>
+</div>
+
+</div>
+
+<hr>
+<app-binding></app-binding>
+
+<hr>
+<app-ttd></app-ttd>
